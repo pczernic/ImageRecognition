@@ -11,6 +11,7 @@ imageFirst = cv2.imread(r"C:\Users\admin1\Desktop\DSC_0143.JPG")  # if second ar
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()  # destroy all windows, or destroyWindow
 
+
 # imgRGB = cv2.cvtColor(imageFirst, cv2.COLOR_BGR2RGB)  # convert
 #
 # plt.figure()
