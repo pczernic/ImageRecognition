@@ -1,6 +1,13 @@
 import cv2
 import matplotlib.pyplot as plt
 
+
+try:
+    from cv2 import cv2
+except ImportError:
+    pass
+
+
 # openCV RGB -> BRG
 
 print(f'OpenCV version: {cv2.__version__}')
