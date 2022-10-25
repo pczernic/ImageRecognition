@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 
+
 image = np.zeros((1024, 1024, 3), np.uint8)
 image += 255
 
@@ -15,5 +16,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 image = cv2.putText(image, "OpenCV", (250, 650), font, 4, (0, 0, 0), 4, cv2.LINE_AA)
 
 cv2.imshow('OpenCV Logo', image)
+cv2.imwrite('openCVlogo.png', image)
 cv2.waitKey(000)
 cv2.destroyAllWindows()
+
